@@ -2,7 +2,6 @@
 
 import { db } from "@/lib/prisma";
 import { auth } from "@clerk/nextjs/server";
-import next from "next";
 import { generateAIInsights } from "./dashboard";
 
 export async function updateUser(data) {
